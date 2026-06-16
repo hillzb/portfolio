@@ -41,5 +41,5 @@ header, footer {
 }
 
 footer {
-  display: inline-block;
+  display: block;
 }
