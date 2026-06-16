@@ -9,10 +9,12 @@
   padding: 0;
 }
 
+/* troubleshooting class */
 .el {
   border: 2px solid red;
 }
 
+/* Clean up Nav Bar */
 ul {
   list-style-type: none;
 }
@@ -32,4 +34,12 @@ body {
 h2 {
   margin-top: 1em;
   padding-top: 1em;
+}
+
+header, footer {
+  background: #0b1120;
+}
+
+footer {
+  display: inline-block;
 }
