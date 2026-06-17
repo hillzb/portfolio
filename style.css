@@ -17,12 +17,17 @@
 /* Clean up Nav Bar */
 ul {
   list-style-type: none;
+  font-size: 20pt;
+}
+
+li {
+  display: inline;
 }
 
 /* layout and design */
 
 body {
-  background-color: black;
+  background-color: #919191;
   color: white;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
