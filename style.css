@@ -4,10 +4,10 @@
  * */
 
 /* reset */
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* troubleshooting class */
 .el {
@@ -17,27 +17,28 @@
 /* Clean up Nav Bar */
 nav ul {
   list-style-type: none;
-  font-size: 20pt;
+  font-size: 14pt;
 }
 
 nav li {
   display: inline;
 }
 
+header h1 {
+  display: block;
+  text-align: center;
+}
+
 /* layout and design */
 
 body {
-  background-color: #6E1D4B;
-  color: white;
+  background-color: #AEB8D2;
+  color: #444;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   padding: 4em 1em;
   margin: 0 auto;
-  max-width: 80vw;
-}
-
-header a {
-  color: white;
+  max-width: 50em;
 }
 
 h2 {
@@ -45,8 +46,29 @@ h2 {
   padding-top: 1em;
 }
 
-header, footer {
-  background: #0b1120;
+h1, h2, strong {
+  color:#222;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #64666e;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #69c;
+}
+
+a {
+  color: #0f3b71;
 }
 
 footer {
