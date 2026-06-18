@@ -15,25 +15,29 @@
 }
 
 /* Clean up Nav Bar */
-ul {
+nav ul {
   list-style-type: none;
   font-size: 20pt;
 }
 
-li {
+nav li {
   display: inline;
 }
 
 /* layout and design */
 
 body {
-  background-color: #919191;
+  background-color: #6E1D4B;
   color: white;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   padding: 4em 1em;
   margin: 0 auto;
   max-width: 80vw;
+}
+
+header a {
+  color: white;
 }
 
 h2 {
